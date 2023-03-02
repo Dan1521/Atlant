@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/output.css">
+  <link rel="icon" type="image/png" href="./image/site.png">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <title>Атлант Газ</title>
+</head>
+<body class="bg-dark text-base font-secondary leading-[22px] font-normal">
+  <header>
+    <div class="container flex justify-between items-center max-md:px-2.5 max-sm:flex-col">
+      <div class="logo flex items-end md:mt-3.5 max-sm:mb-4">
+        <a class="flex items-end after:ml-6 after:mr-5 after:mb-5 after:w-[1px] after:h-8 after:bg-white max-md:w-[200px] max-md:after:hidden" href="">
+          <img src="./image/logo.svg" alt="Атлант Газ">
+        </a>
+        <span class="mb-4 text-base leading-[18px] italic text-blue max-md:hidden">Расправь плечи <br>в теплом доме</span>
+      </div>
+      <div class="flex sm:flex-col max-sm:w-full max-sm:justify-between">
+        <a class="text-2xl font-primery leading-7 font-bold text-white mb-1 hover:text-blue duration-75 ease-in max-md:text-xl max-sm:text-base " href="tel:+79263306834">+7 926 330-68-34</a>
+        <a class="text-blue  font-bold underline underline-offset-1 max-md:text-sm" href="#">Срочный вызов</a>
+      </div>
+    </div>
+  </header>
+  <section class="screen-1 relative pb-[72px] max-lg:pb-10">
+    <div class="container max-md:px-2.5 relative z-[1]">
+      <div class="flex flex-col items-start">
+        <div class="flex space-x-8 mt-10 mb-3">
+          <div>
+            <div class="flex items-center">
+              <img src="./image/moon.svg" alt="">
+              <img class="mx-2" src="./image/arrow.svg" alt="">
+              <img src="/image/sun.svg" alt="">
+            </div>
+            <span class="text-white font-light max-sm:hidden">В любое время дня и ночи</span>
+          </div>
+          <div>
+            <div class="flex items-center">
+              <img src="./image/cloudy.svg" alt="">
+              <img class="mx-2" src="./image/arrow.svg" alt="">
+              <img src="/image/snowflake.svg" alt="">
+            </div>
+            <span class="text-white font-light max-sm:hidden">Вне зависимости от погодных условий</span>
+          </div>
+        </div>
+        <h1 class="font-primery text-[60px] leading-none text-blue mb-3.5 max-md:text-4xl">Доставим газ<br> за 4 часа</h1>
+        <div class="w-[410px] relative font-primery font-normal text-2xl leading-7 text-white mb-10 max-sm:w-[300px] max-sm:text-lg">
+          <span>в любую точку  Москвы <br>и Московской области</span>
+          <img class="absolute right-0 top-0 max-sm:top-3 max-sm:w-[90px] max-sm:h-[90px]" src="./image/long-arrow.svg" alt="">
+        </div>
+        <div class="flex flex-col">
+          <button class="w-[395px] h-[87px] flex items-center justify-center mb-3 banner-btn max-sm:w-[300px] max-sm:h-[75px] max-sm:after:hidden max-sm:before:hidden">
+            <span class="relative z-10 font-primery text-xl text-white max-sm:text-lg">Заказать доставку газа<br> в газгольдер</span>
+          </button>
+          <span class="text-white mx-auto max-sm:text-center">Доставка газа всегда по актуальным ценам</span>
+        </div>
+      </div>
+    </div>
+    <img class="absolute top-0 right-0 max-2xl:w-[800px] max-2xl:top-1/2 max-2xl:-translate-y-1/2 max-xl:w-[670px] max-lg:w-[500px] max-md:hidden" src="./image/banner.png" alt="">
+  </section>
+  <section class="screen-2 py-11 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-blue before:opacity-5">
+    <div class="container relative z-[1] max-md:px-2.5">
+      <h2 class="text-blue text-4xl leading-[44px] text-center font-primery mb-12 max-md:text-3xl max-sm:text-2xl max-md:mb-8 max-sm:mb-5">Стоимость газа в ваш газгольдер сегодня</h2>
+      <div class="flex max-lg:flex-wrap">
+        <div class="basis-[260px] shrink-0 max-lg:order-1 max-lg:basis-1/2 max-lg:pr-3 max-lg:text-center max-sm:basis-full max-sm:pr-0 max-sm:mb-8 ">
+          <h3 class="font-primery text-4xl leading-[44px] text-white uppercase">Пропан</h3>
+          <div class="font-primery text-2xl text-blue mb-5 max-sm:mb-1">от 25 рублей за литр</div>
+          <p class="text-gray font-secondary font-light mb-7">
+            Физически испарение происходит до -40 градусов, что позволяет использовать его в наших с вами погодных условиях
+          </p>
+          <button class="bg-blue text-white rounded-[50px] py-2.5 px-8 text-lg leading-6 font-bold">Заказать</button>
+        </div>
+        <div class="basis-auto flex flex-col items-center max-lg:order-3 max-lg:mt-10">
+          <div class="font-primery text-gray opacity-70 text-xl leading-6 mb-3">Идеальное соотношение</div>
+          <div class="flex items-center mb-4">
+            <div class="font-primery text-gray opacity-70">
+              <div class="text-4xl leading-none">80%</div>
+              <div class="text-lg leading-none">пропан</div>
+            </div>
+            <span class="block h-[50px] w-[1px] bg-gray opacity-30 mx-6"></span>
+            <div class="font-primery text-gray opacity-70">
+              <div class="text-4xl leading-none">20%</div>
+              <div class="text-lg leading-none">бутан</div>
+            </div>
+          </div>
+          <img class="w-full" src="./image/proportions.png" alt="">
+        </div>
+        <div class="basis-[260px] shrink-0 max-lg:order-2 max-lg:basis-1/2 max-lg:text-center max-sm:basis-full">
+          <h3 class="font-primery text-4xl leading-[44px] text-white uppercase">Бутан</h3>
+          <div class="font-primery text-2xl text-blue mb-5 max-sm:mb-1">от 16 рублей за литр</div>
+          <p class="text-gray font-secondary font-light mb-7">
+            Испарение Бутана происходит только до 0 градусов и годится для использования в тёплое время года
+          </p>
+          <button class="bg-blue text-white rounded-[50px] py-2.5 px-8 text-lg leading-6 font-bold">Заказать</button>
+        </div>
+      </div>
+    </div>
+    <div class="absolute left-1/2 -translate-x-1/2 arrow-down flex flex-col items-center arrow-anim">
+      <span class="w-[34px] h-[34px] border border-t-0 border-r-0 border-blue"></span>
+      <span class="w-[50px] h-[50px] border border-t-0 border-r-0 border-blue"></span>
+      <span class="w-[70px] h-[70px] border border-t-0 border-r-0 border-blue"></span>
+    </div>
+  </section>
+  <section class="screen-3 py-14 max-lg:pb-10">
+    <div class="container max-md:px-2.5">
+      <h2 class="text-white text-4xl leading-[44px] max-md:text-3xl max-sm:text-2xl text-center font-primery mb-5">Преимущества работы с нашей компанией</h2>
+      <div class="grid grid-cols-3 gap-x-14 gap-y-4 max-lg:grid-cols-2 max-lg:hidden">
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/01.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Экономия <br> на хранилище</h3>
+          <p class="text-gray w-[300px]">за счёт собственных цистерн на нашей базе</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/02.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Экономия<br> на транспорте</h3>
+          <p class="text-gray w-[300px]">более 10 собственный газовозов</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/03.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Поставки напрямую от производителей</h3>
+          <p class="text-gray w-[300px]">нет наценки на стоимость газа как у перекупщиков и небольших частных компанийе</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/04.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Любые объёмы поставки качественного газа</h3>
+          <p class="text-gray w-[300px]">вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/05.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Оплата удобным <br> для вас способом</h3>
+          <p class="text-gray w-[300px]">все газовозы оснащены терминалами для оплаты вашего заказа</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/06.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Чистый газ <br> без примесей</h3>
+          <p class="text-gray w-[300px]">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/07.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Длина заправочных<br> рукавов — 50 метров</h3>
+          <p class="text-gray w-[300px]">не требуется подъезд автомобиля вплотную к резервуару</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/08.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Доставка сжиженного газа в формате 24/7</h3>
+          <p class="text-gray w-[300px]">привезем газ в удобное для вас время или же  по графикуа</p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img class="mb-2" src="./image/items/09.png" alt="">
+          <h3 class="font-primery text-2xl text-blue mb-3.5">Аттестованный <br> персонал</h3>
+          <p class="text-gray w-[300px]">квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</p>
+        </div>
+      </div>
+      <div class="screen-3-swiper lg:hidden max-w-[400px] w-full mx-auto overflow-hidden">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/01.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Экономия <br> на хранилище</h3>
+              <p class="text-gray w-[300px]">за счёт собственных цистерн на нашей базе</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/02.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Экономия<br> на транспорте</h3>
+              <p class="text-gray w-[300px]">более 10 собственный газовозов</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/03.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Поставки напрямую от производителей</h3>
+              <p class="text-gray w-[300px]">нет наценки на стоимость газа как у перекупщиков и небольших частных компанийе</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/04.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Любые объёмы поставки качественного газа</h3>
+              <p class="text-gray w-[300px]">вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/05.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Оплата удобным <br> для вас способом</h3>
+              <p class="text-gray w-[300px]">все газовозы оснащены терминалами для оплаты вашего заказа</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/06.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Чистый газ <br> без примесей</h3>
+              <p class="text-gray w-[300px]">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/07.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Длина заправочных<br> рукавов — 50 метров</h3>
+              <p class="text-gray w-[300px]">не требуется подъезд автомобиля вплотную к резервуару</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/08.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Доставка сжиженного газа в формате 24/7</h3>
+              <p class="text-gray w-[300px]">привезем газ в удобное для вас время или же  по графикуа</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col items-center text-center">
+              <img class="mb-2" src="./image/items/09.png" alt="">
+              <h3 class="font-primery text-2xl text-blue mb-3.5">Аттестованный <br> персонал</h3>
+              <p class="text-gray w-[300px]">квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="secreen-4">
+    <div class="container relative flex justify-end max-md:px-2.5">
+      <img class="absolute top-0 left-0 max-sm:hidden" src="./image/screen-4.png" alt="">
+      <div class="max-w-[550px] pb-14 max-md:text-center">
+        <h2 class="font-primery text-4xl max-md:text-3xl max-sm:text-2xl  text-gray mb-5">Благодаря нашему собственному автопарку мы можем
+          давать гарантию, что доставим <span class="text-blue">за 4 часа</span></h2>
+          <div class="text-sm font-extrabold text-white bg-blue px-3 py-2">Это сильное конкурентное преимущество, которым мы дорожим</div>
+      </div>
+    </div>
+  </section>
+  <section class="screen-5 py-11 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-blue before:opacity-5">
+    <div class="container relative z-[1] flex flex-col items-center max-md:px-2.5">
+      <h2 class="text-blue text-4xl leading-[44px] text-center font-primery mb-9">Стоимость газа в ваш газгольдер сегодня</h2>
+      <div class="flex justify-center mb-9 max-sm:flex-wrap gap-4">
+        <div data-tab="v-1" class="basis-[160px] max-sm:basis-2/5 font-primery text-lg leading-[22px] text-white text-center bg-blue px-7 py-2.5 rounded-[20px] cursor-pointer max-md:px-4 max-md:text-base">Малый 2000 л.</div>
+        <div data-tab="v-2" class="basis-[160px] max-sm:basis-2/5 font-primery text-lg leading-[22px] text-gray text-center bg-gray-opacity px-7 py-2.5 rounded-[20px] cursor-pointer max-md:px-4 max-md:text-base">Средний 6000 л.</div>
+        <div data-tab="v-3" class="basis-[160px] max-sm:basis-2/5 font-primery text-lg leading-[22px] text-white text-center bg-gray-opacity px-7 py-2.5 rounded-[20px] cursor-pointer max-md:px-4 max-md:text-base">Оптовый 40 000 л.</div>
+        <div data-tab="v-4" class="basis-[160px] max-sm:basis-2/5 font-primery text-lg leading-[22px] text-white text-center bg-gray-opacity px-5 py-2.5 rounded-[20px] cursor-pointer max-md:px-4 max-md:text-base">Стандартный 10 000 л.</div>
+      </div>
+      <div class="relative flex justify-center w-[560px] h-[300px] max-sm:w-full max-sm:h-[250px]">
+        <img id="v-1" class="tab-img absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100" src="./image/v-1.png" alt="">
+        <img id="v-2" class="tab-img absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0" src="./image/v-2.png" alt="">
+        <img id="v-3" class="tab-img absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0" src="./image/v-3.png" alt="">
+        <img id="v-4" class="tab-img absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0" src="./image/v-4.png" alt="">
+      </div>
+      <button class="w-[395px] h-[87px] flex items-center justify-center mb-3 banner-btn max-sm:w-[300px] max-sm:h-[75px] max-sm:after:hidden max-sm:before:hidden">
+        <span class="relative z-10 font-primery text-xl text-white max-sm:text-lg">Заказать доставку газа<br> в газгольдер</span>
+      </button>
+    </div>
+  </section>
+  <section class="screen-6 pt-10 pb-16">
+    <div class="container flex flex-col items-center max-md:px-2.5">
+      <h2 class="font-primery text-4xl max-md:text-3xl max-sm:text-2xl max-sm:text-center text-gray mb-14">Отзывы наших клиентов</h2>
+      <div class="max-w-[1100px] w-full flex items-center justify-between max-lg:px-20 max-md:px-0">
+        <button class="swiper-arrow-prev rotate-180 max-lg:hidden" tabindex="0">
+          <img src="./image/slider-ar.svg" alt="">
+        </button>
+        <div class="max-w-[760px] w-full relative">
+          <div class="w-full  my-swiper overflow-hidden">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="flex bg-gray p-10 rounded-[40px] max-md:flex-col max-md:p-6">
+                  <img class="w-[200px] h-[240px] rounded-[33px] object-center mr-6 max-md:hidden" src="./image/wuman.png" alt="">
+                  <div class="">
+                    <div class="flex items-end mb-4">
+                      <img class="md:hidden w-20 h-20 rounded-full mr-4 " src="./image/wuman.png" alt="">
+                      <div>
+                        <h3 class="font-primery text-2xl leading-7 text-blue mb-1">Ольга И.</h3>
+                        <div class="font-primery text-dark text-lg leading-[22px] ">Красногорск</div>
+                      </div>
+                    </div>
+                    
+                    <p class="text-dark">
+                      Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="flex bg-gray p-10 rounded-[40px] max-md:flex-col max-md:p-6">
+                  <img class="w-[200px] h-[240px] rounded-[33px] object-center mr-6 max-md:hidden" src="./image/man.png" alt="">
+                  <div class="">
+                    <div class="flex items-end mb-4">
+                      <img class="md:hidden w-20 h-20 rounded-full mr-4 " src="./image/man.png" alt="">
+                      <div>
+                        <h3 class="font-primery text-2xl leading-7 text-blue mb-1">Роман С.</h3>
+                        <div class="font-primery text-dark text-lg leading-[22px] ">Красногорск</div>
+                      </div>
+                    </div>
+                    <p class="text-dark">
+                      Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="flex bg-gray p-10 rounded-[40px] max-md:flex-col max-md:p-6">
+                  <img class="w-[200px] h-[240px] rounded-[33px] object-center mr-6 max-md:hidden" src="./image/wuman.png" alt="">
+                  <div class="">
+                    <div class="flex items-end mb-4">
+                      <img class="md:hidden w-20 h-20 rounded-full mr-4 " src="./image/wuman.png" alt="">
+                      <div>
+                        <h3 class="font-primery text-2xl leading-7 text-blue mb-1">Ольга И.</h3>
+                        <div class="font-primery text-dark text-lg leading-[22px] ">Красногорск</div>
+                      </div>
+                    </div>
+                    
+                    <p class="text-dark">
+                      Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination mt-6"></div>
+          </div>
+          <span class="block w-[105%] h-[80%] bg-gray rounded-[40px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-md:hidden" ></span>
+          <span class="block w-[110%] h-[70%] bg-gray rounded-[40px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-md:hidden" ></span>
+        </div>
+        <button class=" swiper-arrow-next max-lg:hidden" tabindex="0">
+          <img src="./image/slider-ar.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="screen-7 pt-9 pb-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-blue before:opacity-5">
+    <div class="container relative z-[1] max-md:px-2.5">
+      <h2 class="text-blue text-4xl leading-[44px] max-md:text-3xl max-sm:text-2xl text-center font-primery mb-12 max-md:mb-10">Ответы на часто задаваемые вопросы</h2>
+      <div class="accordions">
+        <div class="accordion">
+          <button class="accordion__controls">
+            <svg class="accordion__icon" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_12_715)">
+                <path d="M6.87698 0.96169C6.86635 1.02716 6.86145 1.09341 6.86231 1.1597L6.86231 12.4474L6.74783 12.2013C6.63396 11.9607 6.47898 11.7418 6.28991 11.5544L3.12456 8.3891C2.72661 7.97221 2.08642 7.90217 1.60772 8.2231C1.0976 8.59663 0.986845 9.31294 1.36037 9.82309C1.39056 9.8643 1.42348 9.90348 1.45889 9.94029L7.18285 15.6642C7.62968 16.1116 8.35451 16.112 8.80184 15.6651C8.80212 15.6649 8.80244 15.6645 8.80273 15.6642L14.5267 9.94029C14.9731 9.4926 14.9721 8.76777 14.5244 8.3213C14.4892 8.28617 14.4517 8.25337 14.4122 8.2231C13.9335 7.90217 13.2933 7.97221 12.8954 8.3891L9.72429 11.5487C9.55615 11.7167 9.41516 11.9098 9.30644 12.1211L9.15189 12.4646L9.15189 1.2227C9.17361 0.637892 8.7651 0.124811 8.19027 0.0149466C7.56618 -0.0862601 6.97822 0.337599 6.87698 0.96169Z"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_12_715">
+                  <rect width="16" height="16" transform="translate(0 16) rotate(-90)"/>
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="accordion__title">Есть ли у вас инженеры в компании?</div>
+          </button>
+          <div class="accordion__content" style="max-height: 0px;">
+            <div class="accordion__text text-gray-opacity font-light">
+              За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button class="accordion__controls">
+            <svg class="accordion__icon" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_12_715)">
+                <path d="M6.87698 0.96169C6.86635 1.02716 6.86145 1.09341 6.86231 1.1597L6.86231 12.4474L6.74783 12.2013C6.63396 11.9607 6.47898 11.7418 6.28991 11.5544L3.12456 8.3891C2.72661 7.97221 2.08642 7.90217 1.60772 8.2231C1.0976 8.59663 0.986845 9.31294 1.36037 9.82309C1.39056 9.8643 1.42348 9.90348 1.45889 9.94029L7.18285 15.6642C7.62968 16.1116 8.35451 16.112 8.80184 15.6651C8.80212 15.6649 8.80244 15.6645 8.80273 15.6642L14.5267 9.94029C14.9731 9.4926 14.9721 8.76777 14.5244 8.3213C14.4892 8.28617 14.4517 8.25337 14.4122 8.2231C13.9335 7.90217 13.2933 7.97221 12.8954 8.3891L9.72429 11.5487C9.55615 11.7167 9.41516 11.9098 9.30644 12.1211L9.15189 12.4646L9.15189 1.2227C9.17361 0.637892 8.7651 0.124811 8.19027 0.0149466C7.56618 -0.0862601 6.97822 0.337599 6.87698 0.96169Z"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_12_715">
+                  <rect width="16" height="16" transform="translate(0 16) rotate(-90)"/>
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="accordion__title">Делаете ли вы отчистку газгольдера?</div>
+          </button>
+          <div class="accordion__content" style="max-height: 0px;">
+            <div class="accordion__text text-gray-opacity font-light">
+              За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button class="accordion__controls">
+            <svg class="accordion__icon" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_12_715)">
+                <path d="M6.87698 0.96169C6.86635 1.02716 6.86145 1.09341 6.86231 1.1597L6.86231 12.4474L6.74783 12.2013C6.63396 11.9607 6.47898 11.7418 6.28991 11.5544L3.12456 8.3891C2.72661 7.97221 2.08642 7.90217 1.60772 8.2231C1.0976 8.59663 0.986845 9.31294 1.36037 9.82309C1.39056 9.8643 1.42348 9.90348 1.45889 9.94029L7.18285 15.6642C7.62968 16.1116 8.35451 16.112 8.80184 15.6651C8.80212 15.6649 8.80244 15.6645 8.80273 15.6642L14.5267 9.94029C14.9731 9.4926 14.9721 8.76777 14.5244 8.3213C14.4892 8.28617 14.4517 8.25337 14.4122 8.2231C13.9335 7.90217 13.2933 7.97221 12.8954 8.3891L9.72429 11.5487C9.55615 11.7167 9.41516 11.9098 9.30644 12.1211L9.15189 12.4646L9.15189 1.2227C9.17361 0.637892 8.7651 0.124811 8.19027 0.0149466C7.56618 -0.0862601 6.97822 0.337599 6.87698 0.96169Z"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_12_715">
+                  <rect width="16" height="16" transform="translate(0 16) rotate(-90)"/>
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="accordion__title">А вы не испортите газон у меня и соседей?</div>
+          </button>
+          <div class="accordion__content" style="max-height: 0px;">
+            <div class="accordion__text text-gray-opacity font-light">
+              За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button class="accordion__controls">
+            <svg class="accordion__icon" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_12_715)">
+                <path d="M6.87698 0.96169C6.86635 1.02716 6.86145 1.09341 6.86231 1.1597L6.86231 12.4474L6.74783 12.2013C6.63396 11.9607 6.47898 11.7418 6.28991 11.5544L3.12456 8.3891C2.72661 7.97221 2.08642 7.90217 1.60772 8.2231C1.0976 8.59663 0.986845 9.31294 1.36037 9.82309C1.39056 9.8643 1.42348 9.90348 1.45889 9.94029L7.18285 15.6642C7.62968 16.1116 8.35451 16.112 8.80184 15.6651C8.80212 15.6649 8.80244 15.6645 8.80273 15.6642L14.5267 9.94029C14.9731 9.4926 14.9721 8.76777 14.5244 8.3213C14.4892 8.28617 14.4517 8.25337 14.4122 8.2231C13.9335 7.90217 13.2933 7.97221 12.8954 8.3891L9.72429 11.5487C9.55615 11.7167 9.41516 11.9098 9.30644 12.1211L9.15189 12.4646L9.15189 1.2227C9.17361 0.637892 8.7651 0.124811 8.19027 0.0149466C7.56618 -0.0862601 6.97822 0.337599 6.87698 0.96169Z"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_12_715">
+                  <rect width="16" height="16" transform="translate(0 16) rotate(-90)"/>
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="accordion__title">Вы предоставляете документы для субсидий?</div>
+          </button>
+          <div class="accordion__content" style="max-height: 0px;">
+            <div class="accordion__text text-gray-opacity font-light">
+              За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button class="accordion__controls">
+            <svg class="accordion__icon" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_12_715)">
+                <path d="M6.87698 0.96169C6.86635 1.02716 6.86145 1.09341 6.86231 1.1597L6.86231 12.4474L6.74783 12.2013C6.63396 11.9607 6.47898 11.7418 6.28991 11.5544L3.12456 8.3891C2.72661 7.97221 2.08642 7.90217 1.60772 8.2231C1.0976 8.59663 0.986845 9.31294 1.36037 9.82309C1.39056 9.8643 1.42348 9.90348 1.45889 9.94029L7.18285 15.6642C7.62968 16.1116 8.35451 16.112 8.80184 15.6651C8.80212 15.6649 8.80244 15.6645 8.80273 15.6642L14.5267 9.94029C14.9731 9.4926 14.9721 8.76777 14.5244 8.3213C14.4892 8.28617 14.4517 8.25337 14.4122 8.2231C13.9335 7.90217 13.2933 7.97221 12.8954 8.3891L9.72429 11.5487C9.55615 11.7167 9.41516 11.9098 9.30644 12.1211L9.15189 12.4646L9.15189 1.2227C9.17361 0.637892 8.7651 0.124811 8.19027 0.0149466C7.56618 -0.0862601 6.97822 0.337599 6.87698 0.96169Z"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_12_715">
+                  <rect width="16" height="16" transform="translate(0 16) rotate(-90)"/>
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="accordion__title">Смогу ли я заказать во время праздников?</div>
+          </button>
+          <div class="accordion__content" style="max-height: 0px;">
+            <div class="accordion__text text-gray-opacity font-light">
+              За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="screen-8 pt-14 pb-12">
+    <div class="container flex justify-between items-start max-md:flex-col max-md:px-2.5">
+      <div class="max-md:mb-10">
+        <h2 class="font-primery text-4xl leading-[44px] max-lg:text-3xl max-md:text-2xl text-gray max-sm:text-center mb-12 max-md:mb-10 max-sm:mb-8 max-w-[576px]">Не нашли ответа на свой вопрос задайте их нашему специалисту </h2>
+        <form class="form" method="post" >
+          <div class="grid grid-cols-1 max-w-[400px] w-full gap-6 max-md:gap-4">
+            <label class="relative w-full">
+              <input
+              id="username"
+              class="w-full h-[50px] py-4 px-5 text-xs rounded-[10px] border border-gray outline-none focus:border-blue placeholder:uppercase"
+              type="text"
+              name="name"
+              placeholder="Имя">
+            </label>
+            <label class="relative w-full">
+              <input
+                id="phone"
+                class="w-full h-[50px] py-4 px-5 text-xs rounded-[10px] border border-gray outline-none focus:border-blue placeholder:uppercase"
+                type="text"
+                name="phone"
+                placeholder="Телефон">
+            </label>
+            <label class="relative w-full">
+              <textarea
+              id="question"
+              class="w-full h-[112px] py-4 px-5 text-xs rounded-[10px] border border-gray outline-none focus:border-blue placeholder:uppercase"
+              name="question"
+              placeholder="Ваш вопрос"></textarea>
+            </label>
+            <div class="w-full flex justify-between">
+              <button
+                class="bg-blue text-white rounded-[50px] py-2.5 px-8 text-lg leading-6 font-bold"
+                type="submit"
+                
+                >Заказать</button>
+              <div class="message text-green-500">Форма опралена</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="relative max-md:flex max-md:flex-col">
+        <img class="rounded-[40px] drop-shadow-[0px_0px_20px_rgba(0, 0, 0, 0.25)] object-top max-md:w-[250px] max-md:h-[205px] max-md:rounded-full" src="./image/man.png" alt="">
+        <div class="md:absolute md:bottom-[40px] md:-left-[50px] max-md:mt-4 rounded-[20px] bg-blue pt-3 pr-5 pb-5 pl-6">
+          <div class="font-primery text-2xl leading-7 text-gray">Роман Ш.</div>
+          <div class="text-gray">Старший менеджер</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class=" container grid grid-cols-6 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4 max-sm:gap-2  pt-3 pb-9 max-md:px-2.5">
+    <div class= "h-[66px] bg-gray rounded-[20px] flex items-center justify-center">
+      <img src="./image/partners/роснефть.svg" alt="">
+    </div>
+    <div class= "h-[66px] bg-gray rounded-[20px] flex items-center justify-center">
+      <img src="./image/partners/02.svg" alt="">
+    </div>
+    <div class= "h-[66px] bg-gray rounded-[20px] flex items-center justify-center">
+      <img src="./image/partners/транснефть.svg" alt="">
+    </div>
+    <div class= "h-[66px] bg-gray rounded-[20px] flex items-center justify-center">
+      <img src="./image/partners/gazprom.svg" alt="">
+    </div>
+    <div class= "h-[66px] bg-gray rounded-[20px] flex items-center justify-center">
+      <img src="./image/partners/lukoyl.svg" alt="">
+    </div>
+    <div class= "h-[66px] bg-gray rounded-[20px] flex items-center justify-center">
+      <img src="./image/partners/tatnef.svg" alt="">
+    </div>
+  </div>
+  <div class="container flex flex-col items-center max-md:px-2.5">
+    <h2 class="text-blue text-4xl leading-[44px] max-md:text-3xl max-sm:text-2xl text-center font-primery mb-3">Закажи прямо сейчас и получи бесплатную установку телеметрии<h2>
+      <button class="w-[395px] h-[87px] flex items-center justify-center mb-3 banner-btn max-sm:w-[300px] max-sm:h-[75px] max-sm:after:hidden max-sm:before:hidden">
+        <span class="relative z-10 font-primery text-xl text-white max-sm:text-lg">Заказать доставку газа<br> в газгольдер</span>
+      </button>
+  </div>
+  <div class="container pt-10 max-md:px-2.5">
+    <div class="flex bg-white rounded-[33px] overflow-hidden max-md:flex-col">
+      <div class="md:basis-1/2 p-10 pb-24 max-md:pb-14 max-sm:p-4">
+        <h3 class="text-blue text-4xl leading-[44px] max-md:text-3xl max-sm:text-2xl font-primery mb-4">Посетите наш<br> уютный офис</h3>
+        <div class="max-w-[446px] text-lg max-md:text-base max-sm:text-sm tracking-wider text-[#1B2639] uppercase mb-5">где мы сможем вас полностью проконсультировать по всем  вопросам</div>
+        <span class="block w-full h-[1px] bg-[#1B2639] opacity-20 mb-[30px]"></span>
+        <div>
+          <div class="text-lg leading-6 mb-[45px] max-md:mb-5">
+            <div class="font-bold text-lg leading-6 text-blue mb-1">Офис</div>
+            <div class="">Видное , Белокаменное шоссе, 20</div>
+          </div>
+          <div class="text-lg leading-6">
+            <div class="font-bold text-lg leading-6 text-blue mb-1">Телефон:</div>
+            <a href="#">+7 926 330-68-34</a>
+          </div>
+        </div>
+      </div>
+      <div class="md:basis-1/2 max-md:h-[300px] max-sm:h-[200px] relative">
+        <img class="object-cover object-center h-full w-full" src="./image/map.jpg" alt="">
+        <img class="absolute top-[28%] left-[32%]" src="./image/marker.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container pt-10 pb-16 max-md:pb-10 flex justify-between max-md:px-2.5 max-md:flex-col">
+    <a class="text-gray text-sm leading-5 underline max-md:mb-3" href="#">Политика конфиденциальности</a>
+    <a class="text-gray text-sm leading-5 underline" href="#">Согласие на обработку персональных данных</a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./script/inputmask.js"></script>
+  <script src="./script/validate.js"></script>
+  <script src="./script/script.js"></script>
+</body>
+</html>
